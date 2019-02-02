@@ -9,7 +9,7 @@ from keras.layers import Dense
 from keras.layers import Flatten
 from keras.layers import Embedding
 import pandas as pd
-import Classification_Code_EmojiandWord_Vec as c
+import RetrieveEmbeddings as c
 
 
 
@@ -96,8 +96,8 @@ def PrepModel(vocab_size, embedding_matrix):
 
 
 def main():
-	filename = "Final_Dataset_Word2Vec_Emoji2Vec.csv"
-	Labelfile = "Final_Dataset_Word2Vec_Emoji2Vec_Labels.csv"
+	filename = "Data/Final_Dataset_Word2Vec_Emoji2Vec.csv"
+	Labelfile = "Data/Final_Dataset_Word2Vec_Emoji2Vec_Labels.csv"
 	data,labels = ReadFile(filename,Labelfile)
 	padded_docs, vocab_size, embedding_matrix = Preprocess(data)
 	# print(embedding_matrix.shape,vocab_size)
