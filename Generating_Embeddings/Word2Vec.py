@@ -79,7 +79,7 @@ def AverageVectorPerTweet(data,model):
 
 
 def main():
-	filename = "Final_Dataset_Word2Vec_Emoji2Vec.csv"
+	filename = "Data/Final_Dataset_Word2Vec_Emoji2Vec.csv"
 	print("Running Word2Vec...")
 	# data = ReadOpen(filename)
 	data = PandasReadData(filename)
