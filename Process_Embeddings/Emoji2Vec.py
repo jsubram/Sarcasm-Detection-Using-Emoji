@@ -94,8 +94,8 @@ def GenerateEmojiVectors(emoji_list, pretrained_model):
 	return Emoji_vec
 
 
-def main():
-	filename = "Data/Final_Dataset_Word2Vec_Emoji2Vec.csv"
+def main(filename):
+	# filename = "../Data/Final_Dataset_Word2Vec_Emoji2Vec.csv"
 	print("Running Emoji2Vec...")
 	data = ReadOpen(filename)
 	# data = PandasReadData(filename)
