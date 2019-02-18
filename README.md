@@ -18,7 +18,11 @@ Dependencies:
 7) codecs
 8) enchant
 
-Instructions to execute ML code:
+Instructions to execute Basline model code:
 
 1) Place data in /Data directory.
-2) Execute python TraditionalML/RunML.py
+2) Execute python Baseline/Run_ML.py
+
+Instructions to execute LSTM + Attention code:
+1) Change file names in settings.json
+2) Execute python Model/LSTM+Attention.py
