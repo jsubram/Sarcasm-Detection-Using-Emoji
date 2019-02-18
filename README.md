@@ -7,7 +7,7 @@ I have taken the 12.9K input data (emoji + text) separately and put it in a csv 
 
 The coursework codes and report are in Project II Group 10 zip folder.
 
-*Dependencies*:
+**Dependencies**:
 1) Numpy
 2) Keras
 3) NLTK
@@ -18,11 +18,15 @@ The coursework codes and report are in Project II Group 10 zip folder.
 7) codecs
 8) enchant
 
-*Instructions to execute Basline model code*:
+**Instructions to execute Basline model code**:
 
-1) Place data in /Data directory.
-2) Execute python Baseline/Run_ML.py
+1) Place data in /Data directory and run: 
+```
+python Baseline/Run_ML.py
+```
+**Instructions to execute LSTM + Attention code**:
 
-*Instructions to execute LSTM + Attention code*:
-1) Change file names in settings.json
-2) Execute python Model/LSTM+Attention.py
+Change file names in settings.json and run:
+```
+python Model/LSTM+Attention.py
+```
