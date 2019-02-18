@@ -1,0 +1,10 @@
+{
+	"Model_settings": {
+		"Learning_rate": 0.01,
+		"Epochs": 5
+	},
+	"FileNames":{
+		"Training_file": "Data/Final_Dataset_Facebook.csv",
+		"Label_file": "Data/Final_Dataset_Facebook_Labels.csv"
+	}
+}
