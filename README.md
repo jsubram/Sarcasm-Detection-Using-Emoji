@@ -27,5 +27,5 @@ python Baseline/Run_ML.py
 
 Change file names in settings.json and run:
 ```
-python Model/LSTM+Attention.py
+python Model/BiLSTM+Attention.py
 ```
